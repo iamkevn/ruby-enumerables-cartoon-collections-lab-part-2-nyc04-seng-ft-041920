@@ -15,7 +15,7 @@ def long_planeteer_calls(planeteer_calls)
   # Return the boolean result of this check
   planeteer_calls.any? do
     |element| element.length == 4
-  end
+
   end
 end
 
